@@ -22,7 +22,7 @@ A modern, customizable React-based recurring date picker component built with **
 - **Deployment Ready:** Optimized for Netlify, Vercel, Replit etc.
 
 ### Clone the repository:
-git clone https://github.com/your-username/recurring-date-picker.git
+git clone https://github.com/Satrunjay4321/recurring-date-picker.git
 cd recurring-date-picker
 
 ## Known Issue
