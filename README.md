@@ -1,12 +1,32 @@
-# React + Vite
+🗓️ Recurring Date Picker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, customizable React-based recurring date picker component built with **Next.js**, **Tailwind CSS**, and **modern state management**. Supports daily, weekly, monthly, and yearly recurrence patterns, with calendar previews and custom date logic.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fully responsive
+- Supports:
+  - Daily, Weekly, Monthly, Yearly recurrence
+  - Custom intervals (e.g., every 2 weeks, every 3 months)
+  - Pattern selection (e.g., every Monday & Thursday)
+  - Start and End date limits
+- Real-time calendar preview of recurring dates
+- Smooth user interaction and transitions
+- Written using latest React & Tailwind best practices
 
-## Expanding the ESLint configuration
+## ⚙️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React (with Next.js)
+- **Styling:** Tailwind CSS
+- **Testing:** Jest, React Testing Library
+- **Deployment Ready:** Optimized for Netlify, Vercel, Replit etc.
+
+### Clone the repository:
+git clone https://github.com/your-username/recurring-date-picker.git
+cd recurring-date-picker
+
+## Known Issue
+
+- Jest tests are written but due to ESM + Babel + Jest compatibility issues, tests are currently not running. 
+- The application and logic are working as expected.
+- Testing configuration will be completed after resolving Babel-Jest-ESM conflict.
